@@ -1,4 +1,6 @@
 <%@taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
+<%@taglib uri="http://www.springframework.org/tags" prefix="spring" %>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -10,6 +12,14 @@
 	
 	<c:url value="/products" var="url" />
 	<form method="post" action="${url}">
+		<spring:hasBindErrors name="product">
+			<ul>
+			<c:forEach var="error" items="${errors.allErrors}">
+				<li><spring:message code="${error.code}" text="${error.defaultMessage}"/></li>
+			</c:forEach>
+			</ul>
+		</spring:hasBindErrors>
+	
 		<div>
 			<label for="title">Título</label>
 			<input type="text" name="title" id="title" />
