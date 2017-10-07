@@ -1,7 +1,7 @@
 package br.edu.caelum.validator;
 
+import org.springframework.util.StringUtils;
 import org.springframework.validation.Errors;
-import org.springframework.validation.ValidationUtils;
 import org.springframework.validation.Validator;
 
 import br.edu.caelum.models.Product;
@@ -17,10 +17,16 @@ public class ProductValidator implements Validator{
 
 	@Override
 	public void validate(Object target, Errors errors) {
-		ValidationUtils.rejectIfEmptyOrWhitespace(errors, "title", REQUIRED);		
-		ValidationUtils.rejectIfEmptyOrWhitespace(errors, "description", REQUIRED);
 		
 		Product product = (Product) target;
+	
+		if(StringUtils.isEmpty(product.getTitle())){
+			errors.rejectValue("title", REQUIRED);
+		}
+		
+		if(StringUtils.isEmpty(product.getDescription())){
+			errors.rejectValue("description", REQUIRED);
+		}
 		
 		if(product.getNumberOfPages() == 0){
 			errors.rejectValue("numberOfPages", REQUIRED);

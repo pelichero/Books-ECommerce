@@ -7,7 +7,7 @@
 </head>
 <body>
 	<h1>Listagem de produtos</h1>
-	
+	${sucesso}
 	<table>
 		<tr>
 			<th>Títulos</th>

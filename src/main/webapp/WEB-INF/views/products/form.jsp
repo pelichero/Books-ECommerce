@@ -1,5 +1,6 @@
 <%@taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <%@taglib uri="http://www.springframework.org/tags" prefix="spring" %>
+<%@taglib uri="http://www.springframework.org/tags/form" prefix="form" %>
 
 <!DOCTYPE html>
 <html>
@@ -12,25 +13,22 @@
 	
 	<c:url value="/products" var="url" />
 	<form method="post" action="${url}">
-		<spring:hasBindErrors name="product">
-			<ul>
-			<c:forEach var="error" items="${errors.allErrors}">
-				<li><spring:message code="${error.code}" text="${error.defaultMessage}"/></li>
-			</c:forEach>
-			</ul>
-		</spring:hasBindErrors>
 	
 		<div>
 			<label for="title">Título</label>
 			<input type="text" name="title" id="title" />
+			<form:errors path="product.title" element="li"/>
 		</div>
+	
 		<div>
 			<label for="description">Descrição</label>
 			<textarea rows="10" cols="20" id="description" name="description"></textarea>
+			<form:errors path="product.description" element="li"/>
 		</div>
 		<div>
 			<label for="numberOfPages"> Número de páginas</label>
 			<input type="text" name="numberOfPages" id="numberOfPages">
+			<form:errors path="product.numberOfPages" element="li"/>
 		</div>
 		
 		<c:forEach items="${types}" var="bookType" varStatus="status">
