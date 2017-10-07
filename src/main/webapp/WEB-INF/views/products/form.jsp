@@ -11,24 +11,22 @@
 <body>
 	<h1>Cadastro de produtos</h1>
 	
-	<c:url value="/products" var="url" />
-	<form method="post" action="${url}">
-	
+	<form:form action="${spring:mvcUrl('insereProduto').build()}" method="POST" commandName="product">
 		<div>
 			<label for="title">Título</label>
-			<input type="text" name="title" id="title" />
-			<form:errors path="product.title" element="li"/>
+			<form:input path="title"/>
+			<form:errors path="title" element="li"/>
 		</div>
 	
 		<div>
 			<label for="description">Descrição</label>
-			<textarea rows="10" cols="20" id="description" name="description"></textarea>
-			<form:errors path="product.description" element="li"/>
+			<form:textarea path="description" rows="10" cols="20" id="description"/>	
+			<form:errors path="description" element="li"/>
 		</div>
 		<div>
 			<label for="numberOfPages"> Número de páginas</label>
-			<input type="text" name="numberOfPages" id="numberOfPages">
-			<form:errors path="product.numberOfPages" element="li"/>
+			<form:input path="numberOfPages" name="numberOfPages" id="numberOfPages" />
+			<form:errors path="numberOfPages" element="li"/>
 		</div>
 		
 		<c:forEach items="${types}" var="bookType" varStatus="status">
@@ -40,10 +38,9 @@
 		</c:forEach>
 		
 		<div>
-			<input type="submit" values="Enviar">
+			<input type="submit" value="Enviar">
 		</div>
-	</form>
+	</form:form>
 	
-
 </body>
 </html>

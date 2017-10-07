@@ -45,7 +45,7 @@ public class ProductsController {
 	}
 	
 	@Transactional
-	@RequestMapping(method=RequestMethod.POST)
+	@RequestMapping(method=RequestMethod.POST, name="insereProduto")
 	public ModelAndView save(@Valid Product product, BindingResult bindingResult, RedirectAttributes redirectAtt){
 		if(bindingResult.hasErrors()){
 			return form(product);
