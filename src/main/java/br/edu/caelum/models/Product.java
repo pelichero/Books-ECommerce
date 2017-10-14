@@ -1,6 +1,7 @@
 package br.edu.caelum.models;
 
 import java.util.ArrayList;
+import java.util.Calendar;
 import java.util.List;
 
 import javax.persistence.ElementCollection;
@@ -9,6 +10,10 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Lob;
+import javax.validation.constraints.Min;
+
+import org.hibernate.validator.constraints.NotBlank;
+import org.springframework.format.annotation.DateTimeFormat;
 
 @Entity
 public class Product {
@@ -16,12 +21,18 @@ public class Product {
 	@Id
 	@GeneratedValue(strategy=GenerationType.IDENTITY)
 	private Integer id;
-	
+
+	@NotBlank
 	private String title;
 	
+	@DateTimeFormat
+	private Calendar launchDate;
+	
 	@Lob
+	@NotBlank
 	private String description;
 	
+	@Min(30)
 	private int numberOfPages;
 	
 	@ElementCollection
@@ -59,14 +70,20 @@ public class Product {
 		this.numberOfPages = numberOfPages;
 	}
 	
-	
-	
 	public List<Price> getPrices() {
 		return prices;
 	}
 
 	public void setPrices(List<Price> prices) {
 		this.prices = prices;
+	}
+
+	public Calendar getLaunchDate() {
+		return launchDate;
+	}
+
+	public void setLaunchDate(Calendar launchDate) {
+		this.launchDate = launchDate;
 	}
 
 	@Override
