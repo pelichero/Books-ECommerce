@@ -38,6 +38,8 @@ public class Product {
 	@ElementCollection
 	private List<Price> prices = new ArrayList<>();
 	
+	private String summaryPath;
+	
 	public Integer getId() {
 		return id;
 	}
@@ -84,6 +86,14 @@ public class Product {
 
 	public void setLaunchDate(Calendar launchDate) {
 		this.launchDate = launchDate;
+	}
+
+	public String getSummaryPath() {
+		return summaryPath;
+	}
+
+	public void setSummaryPath(String summaryPath) {
+		this.summaryPath = summaryPath;
 	}
 
 	@Override
