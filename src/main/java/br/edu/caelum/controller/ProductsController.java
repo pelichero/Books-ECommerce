@@ -6,6 +6,7 @@ import javax.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.validation.BindingResult;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.multipart.MultipartFile;
@@ -51,5 +52,12 @@ public class ProductsController {
 		dao.save(product);
 		redirectAtt.addFlashAttribute("sucesso", "Produto cadastrado com sucesso");
 		return new ModelAndView("redirect:products");
+	}
+	
+	@RequestMapping(method=RequestMethod.GET, value="/{id}")
+	public ModelAndView show(@PathVariable("id") Integer id){
+		ModelAndView modelAndView = new ModelAndView("products/show");
+		modelAndView.addObject("product", dao.find(id));
+		return modelAndView;
 	}
 }
