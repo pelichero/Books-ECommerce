@@ -8,9 +8,11 @@ import org.springframework.stereotype.Controller;
 import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.multipart.MultipartFile;
 import org.springframework.web.servlet.ModelAndView;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
+import br.edu.caelum.config.FileSaver;
 import br.edu.caelum.dao.ProductDAO;
 import br.edu.caelum.models.BookType;
 import br.edu.caelum.models.Product;
@@ -22,13 +24,9 @@ public class ProductsController {
 	@Autowired
 	private ProductDAO dao;
 	
-	/*
-	@InitBinder
-	protected void initBinder(WebDataBinder binder){
-		binder.setValidator(new ProductValidator());
-	}
-	*/
-	
+	@Autowired
+	private FileSaver fileSaver;
+
 	@RequestMapping(method=RequestMethod.GET)
 	public ModelAndView list(){
 		ModelAndView modelAndView = new ModelAndView("products/list");
@@ -45,11 +43,11 @@ public class ProductsController {
 	
 	@Transactional
 	@RequestMapping(method=RequestMethod.POST, name="insereProduto")
-	public ModelAndView save(@Valid Product product, BindingResult bindingResult, RedirectAttributes redirectAtt){
+	public ModelAndView save(MultipartFile summary ,@Valid Product product, BindingResult bindingResult, RedirectAttributes redirectAtt){
 		if(bindingResult.hasErrors()){
 			return form(product);
 		}
-		
+		product.setSummaryPath(fileSaver.write("uploaded-summaries",summary));
 		dao.save(product);
 		redirectAtt.addFlashAttribute("sucesso", "Produto cadastrado com sucesso");
 		return new ModelAndView("redirect:products");

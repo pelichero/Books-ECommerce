@@ -10,8 +10,7 @@
 </head>
 <body>
 	<h1>Cadastro de produtos</h1>
-	
-	<form:form action="${spring:mvcUrl('insereProduto').build()}" method="POST" commandName="product">
+	<form:form action="${spring:mvcUrl('insereProduto').build()}" method="POST" commandName="product" enctype="multipart/form-data">
 		<div>
 			<label for="title">Título</label>
 			<form:input path="title"/>
@@ -40,7 +39,11 @@
 				<input type="hidden" name="prices[${status.index}].bookType" value="${bookType}" />
 			</div>
 		</c:forEach>
-		
+		<div>
+			<label for="summary">Sumario do livro</label>
+			<input type="file" name="summary" id="summary" />
+			<form:errors path="summaryPath"/>
+		</div>
 		<div>
 			<input type="submit" value="Enviar">
 		</div>
