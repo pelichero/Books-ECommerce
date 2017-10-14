@@ -14,9 +14,10 @@ import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 import org.springframework.web.servlet.view.InternalResourceViewResolver;
 
 import br.edu.caelum.controller.HomeController;
+import br.edu.caelum.models.ShoppingCart;
 
 @EnableWebMvc
-@ComponentScan(basePackageClasses={HomeController.class, FileSaver.class})
+@ComponentScan(basePackageClasses={HomeController.class, FileSaver.class, ShoppingCart.class})
 public class AppWebConfiguration {
 
 	@Bean
@@ -24,6 +25,9 @@ public class AppWebConfiguration {
 		InternalResourceViewResolver internalResourceViewResolver = new InternalResourceViewResolver();
 		internalResourceViewResolver.setPrefix("/WEB-INF/views/");
 		internalResourceViewResolver.setSuffix(".jsp");
+		
+		//o nome exato será registrado
+		internalResourceViewResolver.setExposedContextBeanNames("shoppingCart");
 		return internalResourceViewResolver;
 	}
 	

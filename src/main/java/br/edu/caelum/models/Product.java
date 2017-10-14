@@ -1,5 +1,6 @@
 package br.edu.caelum.models;
 
+import java.math.BigDecimal;
 import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.List;
@@ -100,5 +101,12 @@ public class Product {
 	public String toString() {
 		return "Product [id=" + id + ", title=" + title + ", description=" + description + ", numberOfPages="
 				+ numberOfPages + "]";
+	}
+
+	public BigDecimal priceFor(BookType bookType) {
+		return prices
+				.stream()
+				.filter(price -> price.getBookType().equals(bookType))
+				.findFirst().get().getValue();
 	}
 }

@@ -16,10 +16,10 @@
 		</tr>
 		<c:forEach items="${products}" var="product">
 			<tr>
-				<td>${product.id} - ${product.title}</td>
+				<td>${product.title}</td>
 				<td>
-					<c:forEach items="${product.prices}" var="product">
-						[${product.value} - ${product.bookType}]
+					<c:forEach items="${product.prices}" var="price">
+						[${price.value} - ${price.bookType}]
 					</c:forEach>
 				</td>
 				<td>
