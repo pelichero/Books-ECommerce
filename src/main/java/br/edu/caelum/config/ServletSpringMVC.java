@@ -19,12 +19,13 @@ public class ServletSpringMVC extends AbstractAnnotationConfigDispatcherServletI
 	}
 
 	@Override
+	protected void customizeRegistration(Dynamic registration){
+		registration.setMultipartConfig(new MultipartConfigElement(""));
+	}
+
+	@Override
 	protected String[] getServletMappings() {
 		return new String[]{"/"};
 	}
 
-//	@Override
-//	protected void customizeRegistration(Dynamic registration){
-//		registration.setMultipartConfig(new MultipartConfigElement(""));
-//	}
 }

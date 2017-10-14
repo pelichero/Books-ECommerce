@@ -24,8 +24,8 @@ public class ProductsController {
 	@Autowired
 	private ProductDAO dao;
 	
-//	@Autowired
-//	private FileSaver fileSaver;
+	@Autowired
+	private FileSaver fileSaver;
 
 	@RequestMapping(method=RequestMethod.GET)
 	public ModelAndView list(){
@@ -43,11 +43,11 @@ public class ProductsController {
 	
 	@Transactional
 	@RequestMapping(method=RequestMethod.POST, name="insereProduto")
-	public ModelAndView save(/*MultipartFile summary ,*/@Valid Product product, BindingResult bindingResult, RedirectAttributes redirectAtt){
+	public ModelAndView save(MultipartFile summary ,@Valid Product product, BindingResult bindingResult, RedirectAttributes redirectAtt){
 		if(bindingResult.hasErrors()){
 			return form(product);
 		}
-		//product.setSummaryPath(fileSaver.write("uploaded-summaries",summary));
+		product.setSummaryPath(fileSaver.write("uploaded-summaries",summary));
 		dao.save(product);
 		redirectAtt.addFlashAttribute("sucesso", "Produto cadastrado com sucesso");
 		return new ModelAndView("redirect:products");

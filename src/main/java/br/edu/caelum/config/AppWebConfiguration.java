@@ -47,8 +47,8 @@ public class AppWebConfiguration {
 		return conversionService;
 	}
 	
-//	@Bean
-//	public MultipartResolver multipartResolver(){
-//		return new StandardServletMultipartResolver();
-//	}
+	@Bean
+	public MultipartResolver multipartResolver(){
+		return new StandardServletMultipartResolver();
+	}
 }
