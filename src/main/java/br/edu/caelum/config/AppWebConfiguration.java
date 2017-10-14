@@ -16,7 +16,7 @@ import org.springframework.web.servlet.view.InternalResourceViewResolver;
 import br.edu.caelum.controller.HomeController;
 
 @EnableWebMvc
-@ComponentScan(basePackageClasses={HomeController.class})
+@ComponentScan(basePackageClasses={HomeController.class, FileSaver.class})
 public class AppWebConfiguration {
 
 	@Bean
