@@ -28,7 +28,7 @@ public class ShoppingCartController {
 	private ShoppingCart shoppingCart;
 	
 	@Autowired
-	private ProcessPayementService paymentService;
+	private ProcessPayementService processPayementService;
 	
 	@RequestMapping(method=RequestMethod.GET)
 	public String list(){
@@ -45,14 +45,14 @@ public class ShoppingCartController {
 	public Callable<String> checkout(RedirectAttributes redirectAtt){
 		return () -> {
 			try {
-				paymentService.processPayment(shoppingCart.getTotal());
-				redirectAtt.addFlashAttribute("sucesso", "Pagamento xpto foi gerado com sucesso.")
-				return "redirect:/produto";
+				processPayementService.processPayment(shoppingCart.getTotal());
+				redirectAtt.addFlashAttribute("sucesso", "Pagamento xpto foi gerado com sucesso.");
+				return "redirect:/products";
 			} catch (Exception e) {
-				redirectAtt.addFlashAttribute("erro", "Não foi possível gerar o pagamento.")
+				redirectAtt.addFlashAttribute("erro", "Não foi possível gerar o pagamento.");
 				return "redirect:/shopping";
 			}
-		}
+		};
 	}
 
 	private ShoppingItem createItem(Integer productId, BookType bookType) {
