@@ -9,11 +9,11 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-	
+
 	<title>${product.title}</title>
-	
+
 	<c:url value="/" var="contextPath" />
-	
+
 	<link rel="icon" href="//cdn.shopify.com/s/files/1/0155/7645/t/177/assets/favicon.ico?11981592617154272979" type="image/ico" />
 	<link href="https://plus.googlecom/108540024862647200608" rel="publisher"/>
 	<link href="${contextPath}resources/css/cssbase-min.css" rel="stylesheet" type="text/css" media="all" />
@@ -43,7 +43,7 @@
 							<a href="${shoppingCartUrl}" rel="nofollow">Seu carrinho (${shoppingCart.quantity})</a>
 						</li>
 						<li>
-							<a href="/pages/sobre-a-casa-do-codigo" rel="nofollow">Sobre nós</a>
+							<a href="/pages/sobre-a-casa-do-codigo" rel="nofollow">Sobre nï¿½s</a>
 						</li>
 						<li>
 							<a href="/pages/perguntas-frequentes" rel="nofollow">Perguntas Frequentes</a>
@@ -53,7 +53,7 @@
 			</div>
 		</div>
 	</header>
-	
+
 	<nav class="categories-nav">
 		<ul class="container">
 			<li class="category">
@@ -98,7 +98,7 @@
 				</p>
 			</div>
 		</header>
-		
+
 		<section class="buy-options clearfix">
 			<form action="${shoppingCartUrl}" method="post" class="container">
 				<input type="hidden" value="${product.id}" name="productId"/>
@@ -107,8 +107,8 @@
 						<li class="buy-option">
 							<input type="radio" name="bookType" class="variant-radio" id="${product.id}-${price.bookType}"
 								value="${price.bookType}" ${price.bookType.name() == 'COMBO' ? 'checked' : ''}>
-							 
-							<label class="variant-label" for="${product.id}-${price.bookType}"> 
+
+							<label class="variant-label" for="${product.id}-${price.bookType}">
 								${price.bookType}
 							</label>
 							<p class="variant-price">${price.value}</p>
@@ -131,7 +131,7 @@
 			<section class="data product-detail">
 				<h2 class="section-title">Dados do livro:</h2>
 				<p>
-					Número de paginas: <span itemprop="numberOfPages">${product.numberOfPages}</span>
+					Nï¿½mero de paginas: <span itemprop="numberOfPages">${product.numberOfPages}</span>
 				</p>
 
 				<p></p>
@@ -148,7 +148,7 @@
 
 			<div id="collections-footer">
 				<!-- cdc-footer -->
-				<p class="footer-title">Coleções de Programação</p>
+				<p class="footer-title">Coleï¿½ï¿½es de Programaï¿½ï¿½o</p>
 				<ul class="footer-text-links">
 					<li>
 						<a href="/collections/livros-de-java">Java</a>
@@ -166,9 +166,9 @@
 						<a href="/collections/livros-de-front-end">Front End</a>
 					</li>
 				</ul>
-				
+
 				<p class="footer-title">Outros Assuntos</p>
-				
+
 				<ul class="footer-text-links">
 					<li>
 						<a href="/collections/livros-de-agile">Agile</a>
@@ -178,41 +178,41 @@
 					</li>
 				</ul>
 			</div>
-			
+
 			<div id="social-footer">
 				<!-- books-footer -->
-				<p class="footer-title">Links da Casa do Código</p>
+				<p class="footer-title">Links da Casa do Cï¿½digo</p>
 				<ul class="footer-text-links">
 					<li>
 						<a href="http://livros.casadocodigo.com.br" rel="nofollow">Meus E-books</a>
 					</li>
 					<li>
-						<a href="/pages/sobre-a-casa-do-codigo">Sobre a Casa do Código</a>
+						<a href="/pages/sobre-a-casa-do-codigo">Sobre a Casa do Cï¿½digo</a>
 					</li>
 					<li>
 						<a href="/pages/perguntas-frequentes">Perguntas Frequentes</a>
 					</li>
 					<li>
-						<a href="https://www.caelum.com.br">Caelum - Ensino e Inovação</a>
+						<a href="https://www.caelum.com.br">Caelum - Ensino e Inovaï¿½ï¿½o</a>
 					</li>
 					<li>
 						<a href="http://www.codecrushing.com/" rel="nofollow">Code Crushing</a>
 					</li>
 				</ul>
-				
+
 				<p class="footer-title">Redes Sociais</p>
-				
+
 				<ul>
 					<li class="social-links">
-						<a href="http://www.twitter.com/casadocodigo" target="_blank" id="twitter" rel="nofollow">Facebook</a>						
+						<a href="http://www.twitter.com/casadocodigo" target="_blank" id="twitter" rel="nofollow">Facebook</a>
 						<a href="http://www.facebook.com/casadocodigo" target="_blank" id="facebook" rel="nofollow">Twitter</a>
 					</li>
 				</ul>
 			</div>
-			
+
 			<div id="newsletter-footer">
 				<!-- social-footer -->
-				<p class="footer-title">Receba as Novidades e Lançamentos</p>
+				<p class="footer-title">Receba as Novidades e Lanï¿½amentos</p>
 				<div id="form-newsletter">
 					<form action="https://docs.google.com/spreadsheet/formResponse?formkey=dFhxZ2tDalFiclU4T2FLZVY4UXVUc2c6MQ&embedded=true&ifq"
 						method="POST" id="ss-form" class="form-newsletter">
@@ -227,14 +227,14 @@
 							</li>
 						</ul>
 					</form>
-					
+
 					<ul>
 						<li class="ie8">
-							<a href="https://docs.google.com/spreadsheet/viewform?formkey=dFhxZ2tDalFiclU4T2FLZVY4UXVUc2c6MQ&ifq" rel="nofollow">Receba as Novidades e Lançamentos</a>
+							<a href="https://docs.google.com/spreadsheet/viewform?formkey=dFhxZ2tDalFiclU4T2FLZVY4UXVUc2c6MQ&ifq" rel="nofollow">Receba as Novidades e Lanï¿½amentos</a>
 						</li>
 					</ul>
 				</div>
-				
+
 				<ul class="footer-payments">
 					<li>
 						<img class="accepts-paypal" src="//cdn.shopify.com/s/files/1/0155/7645/t/177/assets/accepts_paypal.png?58522" border="0" alt="Paypal" width="130" height="80" />

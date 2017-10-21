@@ -18,7 +18,6 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 import br.edu.caelum.dao.ProductDAO;
 
 @EnableTransactionManagement
-@ComponentScan(basePackageClasses=ProductDAO.class)
 public class JPAConfiguration {
 	
 	@Bean

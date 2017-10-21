@@ -1,6 +1,7 @@
 package br.edu.caelum.config;
 
 import br.edu.caelum.controller.HomeController;
+import br.edu.caelum.dao.ProductDAO;
 import br.edu.caelum.models.ShoppingCart;
 import br.edu.caelum.resolver.JsonViewResolver;
 import br.edu.caelum.service.ProcessPayementService;
@@ -31,7 +32,7 @@ import java.util.concurrent.TimeUnit;
 
 @EnableWebMvc
 @EnableCaching
-@ComponentScan(basePackageClasses={HomeController.class, FileSaver.class, ShoppingCart.class, ProcessPayementService.class})
+@ComponentScan(basePackageClasses={HomeController.class, FileSaver.class, ShoppingCart.class, ProcessPayementService.class, ProductDAO.class})
 public class AppWebConfiguration {
 
 	@Bean
