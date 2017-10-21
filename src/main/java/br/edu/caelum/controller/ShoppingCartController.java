@@ -15,6 +15,8 @@ import br.edu.caelum.models.ShoppingCart;
 import br.edu.caelum.models.ShoppingItem;
 import br.edu.caelum.service.ProcessPayementService;
 
+import java.util.concurrent.Callable;
+
 @Controller
 @RequestMapping("/shopping")
 public class ShoppingCartController {
@@ -40,9 +42,17 @@ public class ShoppingCartController {
 	}
 	
 	@RequestMapping(value="/checkout", method=RequestMethod.POST)
-	public String checkout(RedirectAttributes redirectAtt){
-		paymentService.processPayment(shoppingCart.getTotal());
-		return "redirect:/shopping";
+	public Callable<String> checkout(RedirectAttributes redirectAtt){
+		return () -> {
+			try {
+				paymentService.processPayment(shoppingCart.getTotal());
+				redirectAtt.addFlashAttribute("sucesso", "Pagamento xpto foi gerado com sucesso.")
+				return "redirect:/produto";
+			} catch (Exception e) {
+				redirectAtt.addFlashAttribute("erro", "Não foi possível gerar o pagamento.")
+				return "redirect:/shopping";
+			}
+		}
 	}
 
 	private ShoppingItem createItem(Integer productId, BookType bookType) {
