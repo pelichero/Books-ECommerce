@@ -1,7 +1,6 @@
 package br.edu.caelum.models;
 
 import lombok.Data;
-import lombok.Getter;
 import org.springframework.security.core.userdetails.UserDetails;
 
 import javax.persistence.Entity;

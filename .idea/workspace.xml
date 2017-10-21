@@ -2,35 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="397bf460-7a05-4a01-aa0e-780c22ac17b6" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/br/edu/caelum/config/SecurityConfiguration.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/br/edu/caelum/dao/UserDAO.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/br/edu/caelum/filter/SecurityFilterRegister.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/br/edu/caelum/models/Role.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/br/edu/caelum/models/User.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/sql/comandos-sql.txt" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/br/edu/caelum/validator/UpdateProductFormValidator.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/m2e-wtp/web-resources/META-INF/maven/br.com.casadocodigo/casadocodigo/pom.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/m2e-wtp/web-resources/META-INF/maven/br.com.casadocodigo/casadocodigo/pom.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/casadocodigo.war" afterPath="$PROJECT_DIR$/target/casadocodigo.war" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/br/edu/caelum/config/AppWebConfiguration.class" afterPath="$PROJECT_DIR$/target/classes/br/edu/caelum/config/AppWebConfiguration.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/br/edu/caelum/config/JPAConfiguration.class" afterPath="$PROJECT_DIR$/target/classes/br/edu/caelum/config/JPAConfiguration.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/br/edu/caelum/config/ServletSpringMVC.class" afterPath="$PROJECT_DIR$/target/classes/br/edu/caelum/config/ServletSpringMVC.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/br/edu/caelum/controller/HomeController.class" afterPath="$PROJECT_DIR$/target/classes/br/edu/caelum/controller/HomeController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/br/edu/caelum/controller/ProductsController.class" afterPath="$PROJECT_DIR$/target/classes/br/edu/caelum/controller/ProductsController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/br/edu/caelum/dao/ProductDAO.class" afterPath="$PROJECT_DIR$/target/classes/br/edu/caelum/dao/ProductDAO.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/br/edu/caelum/form/UpdateProductForm.class" afterPath="$PROJECT_DIR$/target/classes/br/edu/caelum/form/UpdateProductForm.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/br/edu/caelum/models/BookType.class" afterPath="$PROJECT_DIR$/target/classes/br/edu/caelum/models/BookType.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/br/edu/caelum/models/Price.class" afterPath="$PROJECT_DIR$/target/classes/br/edu/caelum/models/Price.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/br/edu/caelum/models/Product.class" afterPath="$PROJECT_DIR$/target/classes/br/edu/caelum/models/Product.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/br/edu/caelum/validator/ProductValidator.class" afterPath="$PROJECT_DIR$/target/classes/br/edu/caelum/validator/ProductValidator.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/br/edu/caelum/config/AppWebConfiguration.java" afterPath="$PROJECT_DIR$/src/main/java/br/edu/caelum/config/AppWebConfiguration.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/br/edu/caelum/config/JPAConfiguration.java" afterPath="$PROJECT_DIR$/src/main/java/br/edu/caelum/config/JPAConfiguration.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/br/edu/caelum/config/ServletSpringMVC.java" afterPath="$PROJECT_DIR$/src/main/java/br/edu/caelum/config/ServletSpringMVC.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/products/show.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/products/show.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/br/edu/caelum/models/User.java" afterPath="$PROJECT_DIR$/src/main/java/br/edu/caelum/models/User.java" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -42,23 +14,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="User.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/br/edu/caelum/models/User.java">
+      <file leaf-file-name="SecurityConfiguration.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/br/edu/caelum/config/SecurityConfiguration.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="38" column="29" lean-forward="true" selection-start-line="38" selection-start-column="21" selection-end-line="38" selection-end-column="29" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserDAO.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/br/edu/caelum/dao/UserDAO.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="113">
-              <caret line="15" column="75" lean-forward="false" selection-start-line="15" selection-start-column="75" selection-end-line="15" selection-end-column="75" />
+            <state relative-caret-position="306">
+              <caret line="33" column="28" lean-forward="false" selection-start-line="33" selection-start-column="28" selection-end-line="33" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -115,14 +75,14 @@
         <option value="$PROJECT_DIR$/src/main/java/br/edu/caelum/resolver/JsonViewResolver.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/products/show.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/br/edu/caelum/filter/SecurityFilterRegister.java" />
-        <option value="$PROJECT_DIR$/src/main/java/br/edu/caelum/config/SecurityConfiguration.java" />
         <option value="$PROJECT_DIR$/src/main/java/br/edu/caelum/config/AppWebConfiguration.java" />
         <option value="$PROJECT_DIR$/src/main/java/br/edu/caelum/config/JPAConfiguration.java" />
         <option value="$PROJECT_DIR$/src/main/java/br/edu/caelum/config/ServletSpringMVC.java" />
         <option value="$PROJECT_DIR$/src/main/java/br/edu/caelum/models/Role.java" />
         <option value="$PROJECT_DIR$/src/resources/sql/comandos-sql.txt" />
-        <option value="$PROJECT_DIR$/src/main/java/br/edu/caelum/models/User.java" />
         <option value="$PROJECT_DIR$/src/main/java/br/edu/caelum/dao/UserDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/br/edu/caelum/models/User.java" />
+        <option value="$PROJECT_DIR$/src/main/java/br/edu/caelum/config/SecurityConfiguration.java" />
       </list>
     </option>
   </component>
@@ -203,39 +163,15 @@
               <item name="Caelum-EBooks-SpringFwk" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="caelum" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="casadocodigo" type="b2602c69:ProjectViewProjectNode" />
               <item name="Caelum-EBooks-SpringFwk" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="caelum" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="casadocodigo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Caelum-EBooks-SpringFwk" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="caelum" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="casadocodigo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Caelum-EBooks-SpringFwk" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="casadocodigo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Caelum-EBooks-SpringFwk" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="sql" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -378,6 +314,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-45" y="30" width="1333" height="786" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -385,11 +322,11 @@
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30678466" sideWeight="0.5026296" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29498526" sideWeight="0.5071375" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20285499" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.5176991" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29498526" sideWeight="0.49286252" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30678466" sideWeight="0.4973704" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30530974" sideWeight="0.4913599" order="10" side_tool="false" content_ui="tabs" x="35" y="282" width="1331" height="187" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24417731" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -618,14 +555,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/edu/caelum/config/SecurityConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="98">
-          <caret line="7" column="77" lean-forward="false" selection-start-line="7" selection-start-column="77" selection-end-line="7" selection-end-column="77" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/br/edu/caelum/config/ServletSpringMVC.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="70">
@@ -644,8 +573,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/br/edu/caelum/dao/UserDAO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="113">
-          <caret line="15" column="75" lean-forward="false" selection-start-line="15" selection-start-column="75" selection-end-line="15" selection-end-column="75" />
+        <state relative-caret-position="350">
+          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="26" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -654,8 +583,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/br/edu/caelum/models/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="38" column="29" lean-forward="true" selection-start-line="38" selection-start-column="21" selection-end-line="38" selection-end-column="29" />
+        <state relative-caret-position="-212">
+          <caret line="7" column="21" lean-forward="false" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/edu/caelum/config/SecurityConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="33" column="28" lean-forward="false" selection-start-line="33" selection-start-column="28" selection-end-line="33" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
