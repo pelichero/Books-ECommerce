@@ -4,7 +4,6 @@ import br.edu.caelum.config.JPAConfiguration;
 import br.edu.caelum.dao.ProductDAO;
 import br.edu.caelum.dao.loja.builders.ProductBuilder;
 import br.edu.caelum.models.BookType;
-import br.edu.caelum.models.Price;
 import br.edu.caelum.models.Product;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -13,7 +12,6 @@ import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 import org.springframework.transaction.annotation.Transactional;
 
-import java.awt.print.Book;
 import java.math.BigDecimal;
 import java.util.List;
 
