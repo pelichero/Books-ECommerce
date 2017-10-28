@@ -1,4 +1,4 @@
-package br.edu.caelum.dao.loja.builders;
+package br.edu.caelum.dao.builders;
 
 import br.edu.caelum.models.BookType;
 import br.edu.caelum.models.Price;

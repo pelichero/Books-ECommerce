@@ -2,9 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="397bf460-7a05-4a01-aa0e-780c22ac17b6" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_test_4_0_0_M2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/br/edu/caelum/config/DataSourceConfigurationTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/br/edu/caelum/controller/ProductsControllerTest.java" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/br/edu/caelum/validator/UpdateProductFormValidator.class" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/br.edu.caelum.dao.loja/ProductDaoTest.java" afterPath="$PROJECT_DIR$/src/test/br.edu.caelum.dao.loja/ProductDaoTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/br/edu/caelum/dao/loja/builders/ProductBuilder.java" afterPath="$PROJECT_DIR$/src/test/br/edu/caelum/dao/loja/builders/ProductBuilder.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/br.edu.caelum.dao.loja/ProductDaoTest.java" afterPath="$PROJECT_DIR$/src/test/br/edu/caelum/dao/ProductDaoTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/br/edu/caelum/dao/loja/builders/ProductBuilder.java" afterPath="$PROJECT_DIR$/src/test/br/edu/caelum/dao/builders/ProductBuilder.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/casadocodigo.war" afterPath="$PROJECT_DIR$/target/casadocodigo.war" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/br/edu/caelum/config/AppWebConfiguration.class" afterPath="$PROJECT_DIR$/target/classes/br/edu/caelum/config/AppWebConfiguration.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/br/edu/caelum/config/JPAConfiguration.class" afterPath="$PROJECT_DIR$/target/classes/br/edu/caelum/config/JPAConfiguration.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/br/edu/caelum/config/ServletSpringMVC.class" afterPath="$PROJECT_DIR$/target/classes/br/edu/caelum/config/ServletSpringMVC.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/br/edu/caelum/controller/HomeController.class" afterPath="$PROJECT_DIR$/target/classes/br/edu/caelum/controller/HomeController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/br/edu/caelum/controller/ProductsController.class" afterPath="$PROJECT_DIR$/target/classes/br/edu/caelum/controller/ProductsController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/br/edu/caelum/dao/ProductDAO.class" afterPath="$PROJECT_DIR$/target/classes/br/edu/caelum/dao/ProductDAO.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/br/edu/caelum/form/UpdateProductForm.class" afterPath="$PROJECT_DIR$/target/classes/br/edu/caelum/form/UpdateProductForm.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/br/edu/caelum/models/BookType.class" afterPath="$PROJECT_DIR$/target/classes/br/edu/caelum/models/BookType.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/br/edu/caelum/models/Price.class" afterPath="$PROJECT_DIR$/target/classes/br/edu/caelum/models/Price.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/br/edu/caelum/models/Product.class" afterPath="$PROJECT_DIR$/target/classes/br/edu/caelum/models/Product.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/br/edu/caelum/validator/ProductValidator.class" afterPath="$PROJECT_DIR$/target/classes/br/edu/caelum/validator/ProductValidator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/casadocodigo.iml" afterPath="$PROJECT_DIR$/casadocodigo.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/br/edu/caelum/config/JPAConfiguration.java" afterPath="$PROJECT_DIR$/src/main/java/br/edu/caelum/config/JPAConfiguration.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,32 +37,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ProductDaoTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/br.edu.caelum.dao.loja/ProductDaoTest.java">
+      <file leaf-file-name="ProductsControllerTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/br/edu/caelum/controller/ProductsControllerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="331">
-              <caret line="36" column="54" lean-forward="false" selection-start-line="36" selection-start-column="54" selection-end-line="36" selection-end-column="54" />
+            <state relative-caret-position="282">
+              <caret line="62" column="42" lean-forward="false" selection-start-line="62" selection-start-column="42" selection-end-line="62" selection-end-column="42" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#1728#1729#0" expanded="true" />
+                <element signature="e#1811#1812#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ProductBuilder.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/br/edu/caelum/dao/loja/builders/ProductBuilder.java">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-207">
-              <caret line="24" column="46" lean-forward="true" selection-start-line="24" selection-start-column="46" selection-end-line="24" selection-end-column="46" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#392#393#0" expanded="true" />
-                <element signature="e#429#430#0" expanded="true" />
-                <element signature="e#1568#1569#0" expanded="true" />
-                <element signature="e#1607#1608#0" expanded="true" />
-                <element signature="e#1646#1647#0" expanded="true" />
-                <element signature="e#1677#1678#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="414">
+              <caret line="212" column="21" lean-forward="false" selection-start-line="212" selection-start-column="21" selection-end-line="212" selection-end-column="21" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -66,6 +81,7 @@
       <find>/produto</find>
       <find>jack</find>
       <find>form</find>
+      <find>security</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -90,10 +106,8 @@
         <option value="$PROJECT_DIR$/src/main/java/br/edu/caelum/service/ProcessPayementService.java" />
         <option value="$PROJECT_DIR$/src/main/java/br/edu/caelum/controller/ProductsController.java" />
         <option value="$PROJECT_DIR$/src/main/java/br/edu/caelum/controller/ShoppingCartController.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/br/edu/caelum/resolver/JsonViewResolver.java" />
         <option value="$PROJECT_DIR$/src/main/java/br/edu/caelum/filter/SecurityFilterRegister.java" />
-        <option value="$PROJECT_DIR$/src/main/java/br/edu/caelum/config/JPAConfiguration.java" />
         <option value="$PROJECT_DIR$/src/main/java/br/edu/caelum/config/ServletSpringMVC.java" />
         <option value="$PROJECT_DIR$/src/resources/sql/comandos-sql.txt" />
         <option value="$PROJECT_DIR$/src/main/java/br/edu/caelum/dao/UserDAO.java" />
@@ -115,6 +129,11 @@
         <option value="$PROJECT_DIR$/src/test/br.edu.caelum.dao.loja/ProductDAOTest" />
         <option value="$PROJECT_DIR$/src/test/br/edu/caelum/dao/loja/builders/ProductBuilder.java" />
         <option value="$PROJECT_DIR$/src/test/br.edu.caelum.dao.loja/ProductDaoTest.java" />
+        <option value="$PROJECT_DIR$/src/test/br/edu/caelum/config/DataSourceConfigurationTest.java" />
+        <option value="$PROJECT_DIR$/src/test/br/edu/caelum/dao/ProductDaoTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/br/edu/caelum/config/JPAConfiguration.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/br/edu/caelum/controller/ProductsControllerTest.java" />
       </list>
     </option>
   </component>
@@ -218,14 +237,15 @@
               <item name="Caelum-EBooks-SpringFwk" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="br.edu.caelum.dao.loja" type="462c0819:PsiDirectoryNode" />
+              <item name="caelum" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="casadocodigo" type="b2602c69:ProjectViewProjectNode" />
               <item name="Caelum-EBooks-SpringFwk" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="builders" type="462c0819:PsiDirectoryNode" />
+              <item name="caelum" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -245,6 +265,9 @@
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="br.edu.caelum.dao" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/test/br.edu.caelum.dao.loja" />
       <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/errors" />
@@ -266,12 +289,37 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ProductDaoTest">
+  <component name="RunManager" selected="JUnit.ProductsControllerTest">
     <configuration name="Desktop tomcat" type="com.poratu.idea.plugins.tomcat" factoryName="SMART_TOMCAT_FACTORY">
       <option name="DOC_BASE" value="$PROJECT_DIR$/src/main/webapp" />
       <option name="CONTEXT_PATH" value="/casadocodigo" />
       <option name="TOMCAT_PORT" value="8080" />
       <option name="VM_OPTIONS" value="" />
+    </configuration>
+    <configuration name="ProductDaoTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="br.edu.caelum.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="casadocodigo" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="br.edu.caelum.dao" />
+      <option name="MAIN_CLASS_NAME" value="br.edu.caelum.dao.ProductDaoTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
     </configuration>
     <configuration name="ProductDaoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
@@ -298,19 +346,69 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="ProductDaoTest.shouldSumAllPricesOfEachBookPerType" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ProductsControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="br.edu.caelum.dao.loja.*" />
+          <option name="PATTERN" value="br.edu.caelum.controller.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="casadocodigo" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="br.edu.caelum.dao.loja" />
-      <option name="MAIN_CLASS_NAME" value="br.edu.caelum.dao.loja.ProductDaoTest" />
-      <option name="METHOD_NAME" value="shouldSumAllPricesOfEachBookPerType" />
+      <option name="PACKAGE_NAME" value="br.edu.caelum.controller" />
+      <option name="MAIN_CLASS_NAME" value="br.edu.caelum.controller.ProductsControllerTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="ProductsControllerTest.onlyAdminShouldAccessProductsForm" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="br.edu.caelum.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="casadocodigo" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="br.edu.caelum.controller" />
+      <option name="MAIN_CLASS_NAME" value="br.edu.caelum.controller.ProductsControllerTest" />
+      <option name="METHOD_NAME" value="onlyAdminShouldAccessProductsForm" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="ProductsControllerTest.shouldListAllBooksInTheHome" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="br.edu.caelum.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="casadocodigo" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="br.edu.caelum.controller" />
+      <option name="MAIN_CLASS_NAME" value="br.edu.caelum.controller.ProductsControllerTest" />
+      <option name="METHOD_NAME" value="shouldListAllBooksInTheHome" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -404,15 +502,21 @@
       <properties />
       <listeners />
     </configuration>
-    <list size="3">
+    <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Smart Tomcat.Desktop tomcat" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.ProductDaoTest.shouldSumAllPricesOfEachBookPerType" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.ProductDaoTest" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.ProductDaoTest" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.ProductDaoTest (1)" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.ProductsControllerTest" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.ProductsControllerTest.onlyAdminShouldAccessProductsForm" />
+      <item index="5" class="java.lang.String" itemvalue="JUnit.ProductsControllerTest.shouldListAllBooksInTheHome" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.ProductDaoTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.ProductDaoTest.shouldSumAllPricesOfEachBookPerType" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.ProductsControllerTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.ProductsControllerTest.shouldListAllBooksInTheHome" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.ProductsControllerTest.onlyAdminShouldAccessProductsForm" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.ProductDaoTest (1)" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.ProductDaoTest" />
       </list>
     </recent_temporary>
   </component>
@@ -433,32 +537,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ProductDaoTest - 2017.10.28 at 14h 56m 05s.xml">
-      <configuration name="ProductDaoTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ProductDaoTest - 2017.10.28 at 14h 56m 26s.xml">
-      <configuration name="ProductDaoTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="ProductDaoTest - 2017.10.28 at 15h 44m 38s.xml">
       <configuration name="ProductDaoTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ProductDaoTest_shouldSumAllPricesOfEachBookPerType - 2017.10.28 at 15h 24m 14s.xml">
-      <configuration name="ProductDaoTest.shouldSumAllPricesOfEachBookPerType" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ProductDaoTest_shouldSumAllPricesOfEachBookPerType - 2017.10.28 at 15h 28m 36s.xml">
-      <configuration name="ProductDaoTest.shouldSumAllPricesOfEachBookPerType" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ProductDaoTest_shouldSumAllPricesOfEachBookPerType - 2017.10.28 at 15h 35m 23s.xml">
-      <configuration name="ProductDaoTest.shouldSumAllPricesOfEachBookPerType" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ProductDaoTest_shouldSumAllPricesOfEachBookPerType - 2017.10.28 at 15h 37m 08s.xml">
-      <configuration name="ProductDaoTest.shouldSumAllPricesOfEachBookPerType" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ProductDaoTest_shouldSumAllPricesOfEachBookPerType - 2017.10.28 at 15h 40m 43s.xml">
-      <configuration name="ProductDaoTest.shouldSumAllPricesOfEachBookPerType" configurationId="JUnit" />
+    <history-entry file="ProductDaoTest_(1) - 2017.10.28 at 15h 56m 06s.xml">
+      <configuration name="ProductDaoTest (1)" configurationId="JUnit" />
     </history-entry>
     <history-entry file="ProductDaoTest_shouldSumAllPricesOfEachBookPerType - 2017.10.28 at 15h 41m 49s.xml">
       <configuration name="ProductDaoTest.shouldSumAllPricesOfEachBookPerType" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ProductsControllerTest - 2017.10.28 at 16h 02m 55s.xml">
+      <configuration name="ProductsControllerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ProductsControllerTest - 2017.10.28 at 16h 03m 18s.xml">
+      <configuration name="ProductsControllerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ProductsControllerTest - 2017.10.28 at 16h 21m 57s.xml">
+      <configuration name="ProductsControllerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ProductsControllerTest - 2017.10.28 at 16h 24m 19s.xml">
+      <configuration name="ProductsControllerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ProductsControllerTest - 2017.10.28 at 16h 24m 51s.xml">
+      <configuration name="ProductsControllerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ProductsControllerTest_onlyAdminShouldAccessProductsForm - 2017.10.28 at 16h 21m 23s.xml">
+      <configuration name="ProductsControllerTest.onlyAdminShouldAccessProductsForm" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ProductsControllerTest_shouldListAllBooksInTheHome - 2017.10.28 at 16h 23m 21s.xml">
+      <configuration name="ProductsControllerTest.shouldListAllBooksInTheHome" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -473,9 +580,9 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29498526" sideWeight="0.5071375" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20285499" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33923304" sideWeight="0.49286252" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.0" sideWeight="0.49286252" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5058997" sideWeight="0.4913599" order="10" side_tool="false" content_ui="tabs" x="35" y="282" width="1331" height="187" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38938054" sideWeight="0.4913599" order="10" side_tool="false" content_ui="tabs" x="35" y="282" width="1331" height="187" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24417731" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -640,14 +747,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/edu/caelum/config/JPAConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-216">
-          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/br/edu/caelum/config/ServletSpringMVC.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="70">
@@ -790,14 +889,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="218" column="0" lean-forward="true" selection-start-line="218" selection-start-column="0" selection-end-line="218" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/br.edu.caelum.dao.loja/ProductDAOTest">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -822,28 +913,64 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/br/edu/caelum/dao/loja/builders/ProductBuilder.java">
+    <entry file="file://$PROJECT_DIR$/src/test/br/edu/caelum/dao/builders/ProductBuilder.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-207">
           <caret line="24" column="46" lean-forward="true" selection-start-line="24" selection-start-column="46" selection-end-line="24" selection-end-column="46" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#392#393#0" expanded="true" />
-            <element signature="e#429#430#0" expanded="true" />
-            <element signature="e#1568#1569#0" expanded="true" />
-            <element signature="e#1607#1608#0" expanded="true" />
-            <element signature="e#1646#1647#0" expanded="true" />
-            <element signature="e#1677#1678#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#387#388#0" expanded="false" />
+            <element signature="e#424#425#0" expanded="false" />
+            <element signature="e#1563#1564#0" expanded="false" />
+            <element signature="e#1602#1603#0" expanded="false" />
+            <element signature="e#1641#1642#0" expanded="false" />
+            <element signature="e#1672#1673#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/br.edu.caelum.dao.loja/ProductDaoTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/br/edu/caelum/dao/ProductDaoTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="331">
-          <caret line="36" column="54" lean-forward="false" selection-start-line="36" selection-start-column="54" selection-end-line="36" selection-end-column="54" />
+        <state relative-caret-position="-60">
+          <caret line="21" column="21" lean-forward="false" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/edu/caelum/config/JPAConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="37" column="17" lean-forward="false" selection-start-line="37" selection-start-column="17" selection-end-line="37" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/br/edu/caelum/config/DataSourceConfigurationTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="70">
+          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="212" column="21" lean-forward="false" selection-start-line="212" selection-start-column="21" selection-end-line="212" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/br/edu/caelum/controller/ProductsControllerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="62" column="42" lean-forward="false" selection-start-line="62" selection-start-column="42" selection-end-line="62" selection-end-column="42" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1728#1729#0" expanded="true" />
+            <element signature="e#1811#1812#0" expanded="true" />
           </folding>
         </state>
       </provider>

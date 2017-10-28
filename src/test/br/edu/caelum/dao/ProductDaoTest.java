@@ -1,13 +1,13 @@
-package br.edu.caelum.dao.loja;
+package br.edu.caelum.dao;
 
 import br.edu.caelum.config.JPAConfiguration;
-import br.edu.caelum.dao.ProductDAO;
-import br.edu.caelum.dao.loja.builders.ProductBuilder;
+import br.edu.caelum.dao.builders.ProductBuilder;
 import br.edu.caelum.models.BookType;
 import br.edu.caelum.models.Product;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.test.context.ActiveProfiles;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 import org.springframework.transaction.annotation.Transactional;
@@ -19,6 +19,7 @@ import static org.junit.Assert.assertEquals;
 
 @RunWith(SpringJUnit4ClassRunner.class)
 @ContextConfiguration(classes= {ProductDAO.class, JPAConfiguration.class})
+@ActiveProfiles("test")
 public class ProductDaoTest {
 
 	@Autowired

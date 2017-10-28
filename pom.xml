@@ -205,6 +205,13 @@
 			<version>4.0.0.M2</version>
 		</dependency>
 
+        <dependency>
+            <groupId>org.springframework.security</groupId>
+            <artifactId>spring-security-test</artifactId>
+            <version>4.0.0.M2</version>
+            <scope>test</scope>
+        </dependency>
+
 		<dependency>
 			<groupId>org.webjars</groupId>
 			<artifactId>bootstrap</artifactId>
@@ -239,5 +246,6 @@
 			<artifactId>spring-test</artifactId>
 			<version>4.1.0.RELEASE</version>
 		</dependency>
-	</dependencies>
+
+    </dependencies>
 </project>
