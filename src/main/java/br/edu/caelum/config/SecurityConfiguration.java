@@ -8,6 +8,7 @@ import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
 import org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
+import org.springframework.security.web.util.matcher.AntPathRequestMatcher;
 
 @EnableWebSecurity
 public class SecurityConfiguration extends WebSecurityConfigurerAdapter{
@@ -31,7 +32,17 @@ public class SecurityConfiguration extends WebSecurityConfigurerAdapter{
                 .antMatchers("/products/**").permitAll()
                 .anyRequest().authenticated()
                 .and()
-                .formLogin();
+                .formLogin()
+                //.loginPage("/login")
+                .defaultSuccessUrl("/products").permitAll()
+                .and()
+                .logout() //It gives you an POST mehod, so the CSRF could be passed too
+                .logoutRequestMatcher(new AntPathRequestMatcher("/logout"))
+                .logoutSuccessUrl("/login")
+                .permitAll()
+                .and()
+                .exceptionHandling()
+                .accessDeniedPage("/WEB-INF/views/errors/403.jsp");
     }
 
 }
