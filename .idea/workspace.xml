@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="397bf460-7a05-4a01-aa0e-780c22ac17b6" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/br.edu.caelum.dao.loja/ProductDaoTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/br/edu/caelum/dao/loja/builders/ProductBuilder.java" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/br/edu/caelum/validator/UpdateProductFormValidator.class" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/br/edu/caelum/dao/ProductDAO.class" afterPath="$PROJECT_DIR$/target/classes/br/edu/caelum/dao/ProductDAO.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/casadocodigo.iml" afterPath="$PROJECT_DIR$/casadocodigo.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/br/edu/caelum/dao/ProductDAO.java" afterPath="$PROJECT_DIR$/src/main/java/br/edu/caelum/dao/ProductDAO.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/br.edu.caelum.dao.loja/ProductDaoTest.java" afterPath="$PROJECT_DIR$/src/test/br.edu.caelum.dao.loja/ProductDaoTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/br/edu/caelum/dao/loja/builders/ProductBuilder.java" afterPath="$PROJECT_DIR$/src/test/br/edu/caelum/dao/loja/builders/ProductBuilder.java" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,8 +19,8 @@
       <file leaf-file-name="ProductDaoTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/br.edu.caelum.dao.loja/ProductDaoTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="506">
-              <caret line="40" column="47" lean-forward="false" selection-start-line="40" selection-start-column="47" selection-end-line="40" selection-end-column="47" />
+            <state relative-caret-position="331">
+              <caret line="36" column="54" lean-forward="false" selection-start-line="36" selection-start-column="54" selection-end-line="36" selection-end-column="54" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -35,16 +31,16 @@
       <file leaf-file-name="ProductBuilder.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/br/edu/caelum/dao/loja/builders/ProductBuilder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="40" column="0" lean-forward="true" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+            <state relative-caret-position="-207">
+              <caret line="24" column="46" lean-forward="true" selection-start-line="24" selection-start-column="46" selection-end-line="24" selection-end-column="46" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#392#393#0" expanded="true" />
                 <element signature="e#429#430#0" expanded="true" />
-                <element signature="e#1583#1584#0" expanded="true" />
-                <element signature="e#1622#1623#0" expanded="true" />
-                <element signature="e#1661#1662#0" expanded="true" />
-                <element signature="e#1692#1693#0" expanded="true" />
+                <element signature="e#1568#1569#0" expanded="true" />
+                <element signature="e#1607#1608#0" expanded="true" />
+                <element signature="e#1646#1647#0" expanded="true" />
+                <element signature="e#1677#1678#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -443,6 +439,27 @@
     <history-entry file="ProductDaoTest - 2017.10.28 at 14h 56m 26s.xml">
       <configuration name="ProductDaoTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="ProductDaoTest - 2017.10.28 at 15h 44m 38s.xml">
+      <configuration name="ProductDaoTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ProductDaoTest_shouldSumAllPricesOfEachBookPerType - 2017.10.28 at 15h 24m 14s.xml">
+      <configuration name="ProductDaoTest.shouldSumAllPricesOfEachBookPerType" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ProductDaoTest_shouldSumAllPricesOfEachBookPerType - 2017.10.28 at 15h 28m 36s.xml">
+      <configuration name="ProductDaoTest.shouldSumAllPricesOfEachBookPerType" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ProductDaoTest_shouldSumAllPricesOfEachBookPerType - 2017.10.28 at 15h 35m 23s.xml">
+      <configuration name="ProductDaoTest.shouldSumAllPricesOfEachBookPerType" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ProductDaoTest_shouldSumAllPricesOfEachBookPerType - 2017.10.28 at 15h 37m 08s.xml">
+      <configuration name="ProductDaoTest.shouldSumAllPricesOfEachBookPerType" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ProductDaoTest_shouldSumAllPricesOfEachBookPerType - 2017.10.28 at 15h 40m 43s.xml">
+      <configuration name="ProductDaoTest.shouldSumAllPricesOfEachBookPerType" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ProductDaoTest_shouldSumAllPricesOfEachBookPerType - 2017.10.28 at 15h 41m 49s.xml">
+      <configuration name="ProductDaoTest.shouldSumAllPricesOfEachBookPerType" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-45" y="30" width="1333" height="786" extended-state="6" />
@@ -456,9 +473,9 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29498526" sideWeight="0.5071375" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20285499" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32890856" sideWeight="0.49286252" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33923304" sideWeight="0.49286252" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.112094395" sideWeight="0.4913599" order="10" side_tool="false" content_ui="tabs" x="35" y="282" width="1331" height="187" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5058997" sideWeight="0.4913599" order="10" side_tool="false" content_ui="tabs" x="35" y="282" width="1331" height="187" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24417731" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -484,7 +501,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="5" />
+      <option name="time" value="7" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -781,14 +798,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/edu/caelum/dao/ProductDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="406">
-          <caret line="43" column="39" lean-forward="false" selection-start-line="43" selection-start-column="39" selection-end-line="43" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/br.edu.caelum.dao.loja/ProductDAOTest">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -805,26 +814,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/edu/caelum/dao/ProductDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="39" column="22" lean-forward="false" selection-start-line="39" selection-start-column="22" selection-end-line="39" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/br/edu/caelum/dao/loja/builders/ProductBuilder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="40" column="0" lean-forward="true" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+        <state relative-caret-position="-207">
+          <caret line="24" column="46" lean-forward="true" selection-start-line="24" selection-start-column="46" selection-end-line="24" selection-end-column="46" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#392#393#0" expanded="true" />
             <element signature="e#429#430#0" expanded="true" />
-            <element signature="e#1583#1584#0" expanded="true" />
-            <element signature="e#1622#1623#0" expanded="true" />
-            <element signature="e#1661#1662#0" expanded="true" />
-            <element signature="e#1692#1693#0" expanded="true" />
+            <element signature="e#1568#1569#0" expanded="true" />
+            <element signature="e#1607#1608#0" expanded="true" />
+            <element signature="e#1646#1647#0" expanded="true" />
+            <element signature="e#1677#1678#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/br.edu.caelum.dao.loja/ProductDaoTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="40" column="47" lean-forward="false" selection-start-line="40" selection-start-column="47" selection-end-line="40" selection-end-column="47" />
+        <state relative-caret-position="331">
+          <caret line="36" column="54" lean-forward="false" selection-start-line="36" selection-start-column="54" selection-end-line="36" selection-end-column="54" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
