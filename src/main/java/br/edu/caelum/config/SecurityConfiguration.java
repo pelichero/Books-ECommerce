@@ -33,7 +33,7 @@ public class SecurityConfiguration extends WebSecurityConfigurerAdapter{
                 .anyRequest().authenticated()
                 .and()
                 .formLogin()
-                //.loginPage("/login")
+                //.loginPage("/login") FIXME
                 .defaultSuccessUrl("/products").permitAll()
                 .and()
                 .logout() //It gives you an POST mehod, so the CSRF could be passed too
