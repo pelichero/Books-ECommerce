@@ -34,17 +34,29 @@ public class JPAConfiguration {
 		return em;
 	}
 
-	@Bean
-	@Profile("dev")
-	public DataSource dataSource(){
-		DriverManagerDataSource dataSource = new DriverManagerDataSource();
-		dataSource.setDriverClassName("com.mysql.jdbc.Driver");
-		dataSource.setUrl("jdbc:mysql://localhost:3306/casadocodigo");
-		dataSource.setUsername("root");
-		dataSource.setPassword("caelum");
-		return dataSource;
-	}
-	
+//	@Bean
+//	@Profile("dev")
+//	public DataSource dataSource(){
+//		DriverManagerDataSource dataSource = new DriverManagerDataSource();
+//		dataSource.setDriverClassName("com.mysql.jdbc.Driver");
+//		dataSource.setUrl("jdbc:mysql://localhost:3306/casadocodigo");
+//		dataSource.setUsername("root");
+//		dataSource.setPassword("caelum");
+//		return dataSource;
+//	}
+
+    	@Bean
+    	@Profile("dev")
+    	public DataSource dataSource(){
+    		DriverManagerDataSource dataSource = new DriverManagerDataSource();
+    		dataSource.setDriverClassName("org.postgresql.Driver");
+    		dataSource.setUrl("jdbc:mysql://localhost:3306/casadocodigo");
+    		dataSource.setUsername("postgres");
+    		dataSource.setPassword("postgres");
+    		return dataSource;
+    	}
+
+
 	@Bean
 	public PlatformTransactionManager transactionManager(EntityManagerFactory emf){
 		JpaTransactionManager transactionManager = new JpaTransactionManager();
@@ -55,7 +67,8 @@ public class JPAConfiguration {
 	private Properties additionalProperties() {
 		Properties properties = new Properties();
 		properties.setProperty("hibernate.hbm2ddl.auto", "update");
-		properties.setProperty("hibernate.dialect", "org.hibernate.dialect.MySQL5Dialect");
+//		properties.setProperty("hibernate.dialect", "org.hibernate.dialect.MySQL5Dialect");
+                properties.setProperty("hibernate.dialect", "org.hibernate.dialect.PostgreSQLDialect");
 		properties.setProperty("hibernate.show_sql", "true");
 		return properties;
 	}
