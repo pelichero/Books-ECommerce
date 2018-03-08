@@ -50,7 +50,7 @@ public class JPAConfiguration {
     	public DataSource dataSource(){
     		DriverManagerDataSource dataSource = new DriverManagerDataSource();
     		dataSource.setDriverClassName("org.postgresql.Driver");
-    		dataSource.setUrl("jdbc:mysql://localhost:3306/casadocodigo");
+    		dataSource.setUrl("jdbc:postgresql://192.168.110.47:5432/casadocodigo");
     		dataSource.setUsername("postgres");
     		dataSource.setPassword("postgres");
     		return dataSource;
